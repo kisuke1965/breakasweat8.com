@@ -1,5 +1,5 @@
 ---
-title: "‚¨–â‡‚í‚¹"
+title: "ãŠå•åˆã‚ã›"
 date: 2019-12-17T23:58:33+09:00
 description: Contact page
 type: contact
