@@ -4,11 +4,11 @@ logo = true
 description = "計画を立てて実行した努力は必ず自信になる。自信は確かなスキルに変わり輝く最高の自分になる"
 custom_css = ["css/style.css"]
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
-useFaviconGenerator = false
+useFaviconGenerator = true
 languagedir = "ltr"
-
-# themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"] # select options for site color theme
-themeOptions = ["light", "hacker", "kimbie"]
+themeOptions = "light"
+# themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"] 
+# themeOptions = ["light", "hacker", "kimbie"]
 notAllowedTypesInHome = ["contact", "talks", "about", "showcase","page"] # not allowed page types in home page. type can be set in front matter or default to folder name.
 notAllowedTypesInHomeSidebar = ["about", "archive", "showcase"] # not allowed page types in home page sidebar(recent post titles).
 notAllowedTypesInArchive = ["about", "talks", "showcase","privacy-policy","contact","page"] # not allowed page types in archive page
@@ -104,31 +104,7 @@ repo = ""               # The repo to store comments
 clientId = ""           # Your client ID
 clientSecret = ""       # Your client secret
 
-# Valine.
-# You can get your appid and appkey from https://leancloud.cn
-# more info please open https://valine.js.org
-[valine]
-enable = false
-appId = '你的appId'
-appKey = '你的appKey'
-notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
-verify = false # Verification code
-avatar = 'mm' 
-placeholder = '说点什么吧...'
-visitor = false
 
-[changyan]
-changyanAppid = ""        # Changyan app id             # 畅言
-changyanAppkey = ""       # Changyan app key
-
-[livere]
-livereUID = ""            # LiveRe UID                  # 来必力
-
-# Isso: https://posativ.org/isso/
-# [isso]
-# enable = false
-# scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
-# dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions] # if set, social icons will show up.
 email = "mailto:talk@breakasweat8.com"
