@@ -7,7 +7,8 @@ custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/
 useFaviconGenerator = false
 languagedir = "ltr"
 
-themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"] # select options for site color theme
+# themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"] # select options for site color theme
+themeOptions = ["light", "hacker", "kimbie"]
 notAllowedTypesInHome = ["contact", "talks", "about", "showcase","page"] # not allowed page types in home page. type can be set in front matter or default to folder name.
 notAllowedTypesInHomeSidebar = ["about", "archive", "showcase"] # not allowed page types in home page sidebar(recent post titles).
 notAllowedTypesInArchive = ["about", "talks", "showcase","privacy-policy","contact","page"] # not allowed page types in archive page
@@ -124,17 +125,17 @@ changyanAppkey = ""       # Changyan app key
 livereUID = ""            # LiveRe UID                  # 来必力
 
 # Isso: https://posativ.org/isso/
-[isso]
-enable = false
-scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
-dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
+# [isso]
+# enable = false
+# scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
+# dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions] # if set, social icons will show up.
-email = "mailto:your@email.com"
+email = "mailto:talk@breakasweat8.com"
 phone = ""
-facebook = "http://example.org/"
-twitter = "http://example.org/"
-github = "https://github.com/zzossig/hugo-theme-zzo"
+facebook = ""
+twitter = "https://twitter.com/oRTsfq0f7JeUO7f"
+github = ""
 stack-overflow = ""
 instagram = ""
 google-plus = ""
