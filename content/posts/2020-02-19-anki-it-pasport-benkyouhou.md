@@ -7,7 +7,8 @@ url: /2020/02/19/anki-it-pasport-benkyouhou/
 image: /wp-content/uploads/2020/02/illustrain04-science05.png
 categories:
   - ITパスポートの勉強法
-
+series:
+  - ITパソポート資格試験
 ---
 
  {{< popup_left01 >}} 暗記はズルイ方法で後ろめたさを感じる？」何を仰っているのですか、<strong>暗記は全ての学習の基本的な技術で「暗記」がなければ知識を頭に詰め込む術が他にありません。</strong>時間がない人ほどITパスポートの勉強法は暗記を主に考えましょう! {{< /popup_left01 >}} 
